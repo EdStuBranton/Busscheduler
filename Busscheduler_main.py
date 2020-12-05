@@ -60,8 +60,7 @@ def normalize_minutes(remaining_minutes):
 def time_needed_to_busstation(m):
     result = int((((m / 1000) / 5) * 3600))
     minutes = int(result / 60)
-    seconds = result - (minutes * 60) 
-    
+    seconds = result - (minutes * 60)
     return '{0} Minute/s and {1} Second/s'.format(minutes, seconds)
 
 def return_schedule():

@@ -68,7 +68,7 @@ def return_schedule():
 
 def return_next_bus():
     hours, minutes = min(return_schedule())
-    return 'The next bus will arrive in {0} hours and {1} minutes'.format(penis, vagina)
+    return 'The next bus will arrive in {0} hours and {1} minutes'.format(hours, minutes)
 
 
 print(return_next_bus())

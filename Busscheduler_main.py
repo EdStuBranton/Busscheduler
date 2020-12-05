@@ -7,7 +7,7 @@ __credits__ = ["Ed Stu Branton"]
 __license__ = "GPL"
 __version__ = "0.1"
 __maintainer__ = "Ed Stu Branton"
-__email__ = "edstubranton@hotmail.com"
+__email__ = "edstubranton@********"
 __status__ = "Production"
 
 

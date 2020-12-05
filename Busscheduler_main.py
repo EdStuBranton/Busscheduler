@@ -57,7 +57,6 @@ def normalize_minutes(remaining_minutes):
         remaining_minutes += 60        
     return remaining_minutes
 
-
 def time_needed_to_busstation(m):
     result = int((((m / 1000) / 5) * 3600))
     minutes = int(result / 60)
@@ -65,12 +64,12 @@ def time_needed_to_busstation(m):
     
     return '{0} Minute/s and {1} Second/s'.format(minutes, seconds)
 
-
 def return_schedule():
     return [calc_time_diff(busschedule_weekday[key], rtrn_curr_hr_min_split()) for key in schedule_search_index]
 
 def return_next_bus():
     hours, minutes = min(return_schedule())
     return 'The next bus will arrive in {0} hours and {1} minutes'.format(penis, vagina)
+
 
 print(return_next_bus())

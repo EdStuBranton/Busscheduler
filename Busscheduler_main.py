@@ -36,8 +36,8 @@ busschedule_weekday = {'a':[8,25], 'b':[8,45],
         's':[17,25], 't':[17,45],
         'u':[18,25], 'v':[18,45]}
 
-def calc_time_diff(lst1, lst2):
-    c = [a - b for a, b in zip(lst1, lst2)]
+def calc_time_diff(schedule_time_lst, current_time_lst):
+    c = [a - b for a, b in zip(schedule_time_lst, current_time_lst)]
     if c[0] < 0:
         c[0] += 24
     if c[1] < 0:
